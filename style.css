@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  :root{
+      --primary-color: darkgreen;
+      --secondary-color: lightgreen;
+      --tertiary-color: #00ccff;
+      --c-pink: pink;
+  }
+  
+  
+  .heading{
+      text-align: center;
+  }
+  .container{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+  }
+  
+  .description{
+      text-align: center;
+  }
+  
+  #date-of-birth{
+      text-align: center;
+      color: var(--primary-color);
+  }
+  
+  #lucky-number{
+      text-align: center;
+      color: var(--primary-color);
+  }
+  
+  #check-button{
+      margin-top: 1rem ;
+      background-color: transparent;
+      color: var(--secondary-color);
+      font-size: large;
+      font-weight: bold;
+      text-align: center;
+      width: 50%;
+      border-color: var(--secondary-color);
+      border-width: 5px;
+      border-radius: 3rem;
+      padding: 10px;
+  }
+  
+  #final-msg{
+      background: var(--primary-color);
+      padding: 2rem;
+      border: 0 var(--primary-color) ;
+      padding-top: 3rem;
+      text-align: center;
+      font-size: large;
+      font-weight: bold;
+  }
+  
+  .container2{
+      text-align: center;
+      padding: 2rem;
+  }
+  
+  input{
+      width: 50%;
+      background: var(--secondary-color);
+      border: 2px solid var(--tertiary-color);
+      padding: 1rem;
+      border-radius: 1rem;
+      border-bottom-width: 1rem;
+      border-bottom-color: var(--tertiary-color);
+      box-shadow: 10px 5px var(--c-pink);
+  }
+  
+  input,
+  label{
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+      margin: 1rem;
+  }
+  ::placeholder { 
+    color: deeppink;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  
+  
+  
