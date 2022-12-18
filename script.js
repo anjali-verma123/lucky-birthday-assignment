@@ -17,7 +17,7 @@ function compareValues(sum, luckyNumber) {
   }
   if (luckyNumber <= 0) {
     finalMsg.innerText = "Please select lucky number greater than zero";
-    finalMsg.style.color = 'red';
+    finalMsg.style.color = 'lightgreen';
   }
 }
 
