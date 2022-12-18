@@ -8,11 +8,11 @@ checkNumber.addEventListener("click", luckydob);
 function compareValues(sum, luckyNumber) {
   if (sum % luckyNumber === 0) {
     finalMsg.innerText = "🥳🎉🌸Your Birthday is Lucky!!!🥳🎉🌸";
-    finalMsg.style.color = 'blue';
+    finalMsg.style.color = 'lightgreen';
     finalMsg.style.fontSize = 'larger';
   } else {
     finalMsg.innerText = "😥😥Your Birthday is not Lucky😓😓";
-    finalMsg.style.color = 'red';
+    finalMsg.style.color = 'lightgreen';
     finalMsg.style.fontSize = 'larger';
   }
   if (luckyNumber <= 0) {
